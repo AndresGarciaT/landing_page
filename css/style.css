@@ -1,0 +1,42 @@
+body{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+.button-one{
+    margin-top: 5px;
+    border-radius: 20px;
+    width: 10rem;
+    background-color: #312541;
+    color: white;
+}
+.card_one:hover{
+    transform: scale(1.1);
+}
+.card_one{
+    margin-bottom: 2rem !important;
+    border-radius: 20px;
+    margin: 20px;
+    width: 12rem !important;
+    background: #FFFFFF;
+    /* sm */
+    transition: transform .5s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+h1{
+    color: #312541;
+    font-family: 'Kalam', cursive;
+}
+p{
+    color: #312541;
+    font-family: 'Roboto', sans-serif;
+}
+.section_two{
+    margin-top: 4rem;
+}
